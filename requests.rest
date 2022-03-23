@@ -1,0 +1,38 @@
+POST http://localhost:2020/testing/registration
+Content-Type: application/json
+
+{
+    "email": "", 
+    "password": ""
+}
+
+###
+
+POST http://localhost:2020/testing/login
+Content-Type: application/json
+
+{
+    "email": "",
+    "password": ""
+}
+
+###
+
+PUT http://localhost:2020/testing/change
+Content-Type: application/json
+Authorization: Bearer token
+
+{
+    "email": "",
+    "password": ""
+}
+
+###
+
+DELETE http://localhost:2020/testing/delete
+Content-Type: application/json
+Authorization: Bearer token
+
+{
+    "id": "" //id of the user
+}
